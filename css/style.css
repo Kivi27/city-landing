@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=K2D:wght@400;700&display=swap');
+
+:root {
+    --color-text: #37474F;
+    --blue-background: #BBDEFB;
+}
+
+.container {
+    max-width: 1400px;
+    font-family: 'Istok Web', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 402px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+
+    font-size: 25px;
+    line-height: 36px;
+    color: var(--color-text);
+}
+
+.menu__item {
+    white-space: nowrap;
+}
+
+.what-to-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 78px 0;
+}
+
+.main__what-to-do {
+    margin-top: 70px;
+}
+
+.section-title {
+    font-size: 64px;
+    line-height: 92px;
+
+    text-align: center;
+    color: #000000;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 117px;
+}
+
+.photo-grid__item {
+    border-radius: 22px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'K2D', sans-serif;
+
+    background-color: var(--blue-background);
+}
+
+.reasons__section-title {
+    margin-bottom: 110px;
+}
+
+.main__reasons {
+    margin-top: 185px;
+}
+
+.reasons__content {
+    padding: 66px 0;
+}
+
+.reasons-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 133px 0;
+}
+
+.reasons-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 118px;
+}
+
+.reasons__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 76px 0;
+    max-width: 536px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.reasons__title {
+    font-family: inherit;
+}
+
+.reasons__describe-text {
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.reasons-card_inverse {
+    flex-direction: row-reverse;
+}
+
+.reasons__promo-text {
+    max-width: 1150px;
+    margin-top: 201px;
+    margin-bottom: 150px;
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+}
+
+.follow-us {
+    padding-top: 155px;
+}
+
+.section-title-another {
+    font-family: 'K2D', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 84px;
+
+    text-align: center;
+}
+
+.follow-us-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.follow-us__follow-us-icons {
+    margin: 150px 0 250px 0;
+}
