@@ -6,7 +6,8 @@
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1220px;
+    margin: 0 110px;
     font-family: 'Istok Web', serif;
 }
 
@@ -150,9 +151,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 150px;
 }
 
 .follow-us__follow-us-icons {
     margin: 150px 0 250px 0;
+}
+
+.footer {
+    background-color: var(--blue-background);
+}
+
+.footer__content {
+    padding-top: 65px;
+}
+
+.contact {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr 1fr / 146px 1fr;
+}
+
+.contact__text-container {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 32px;
+    align-self: center;
 }
