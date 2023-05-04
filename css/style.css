@@ -33,6 +33,10 @@
     white-space: nowrap;
 }
 
+.hero__photo {
+    width: 100%;
+}
+
 .what-to-do {
     display: flex;
     flex-direction: column;
