@@ -5,6 +5,7 @@
     <title>City landing</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://www.gismeteo.ua/assets/flat-ui/legacy/css/informer.min.css">
 </head>
 <body>
     <header class="header container">
@@ -126,6 +127,38 @@
                 </audio>
             </div>
         </section>
+        <section class="informer center-section space-section">
+            <div class="informer__container">
+                <div id="gsInformerID-0C5tw32Mh0M7mb" class="gsInformer" style="width:325px;height:183px">
+                    <div class="gsIContent">
+                        <div id="cityLink">
+                            <a href="https://www.gismeteo.com/weather-chervona-sloboda-14003/" target="_blank" title="Weather in Chervona Sloboda">
+                                <img src="https://www.gismeteo.ua/assets/flat-ui/img/gisloader.svg" width="24" height="24" alt="Weather in Chervona Sloboda">
+                            </a>
+                        </div>
+                        <div class="gsLinks">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="leftCol">
+                                            <a href="https://www.gismeteo.com/" target="_blank" title="Weather">
+                                                <img alt="Weather" src="https://www.gismeteo.ua/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" width="11" height="16" />
+                                                <img src="https://www.gismeteo.ua/assets/flat-ui/img/informer/gismeteo.svg" border="0" align="middle" style="left: 5px; top:1px">
+                                            </a>
+                                        </div>
+                                        <div class="rightCol">
+                                            <a href="https://www.gismeteo.com/weather-chervona-sloboda-14003/2-weeks/" target="_blank" title="Weather in Chervona Sloboda for 2-week forecast">
+                                                <img src="https://www.gismeteo.ua/assets/flat-ui/img/informer/forecast-2weeks.en.svg" border="0" align="middle" style="top:auto" alt="Weather in Chervona Sloboda for 2-week forecast">
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__content container">
@@ -163,5 +196,6 @@
             </div>
         </div>
     </footer>
+    <script async src="https://www.gismeteo.ua/api/informer/getinformer/?hash=0C5tw32Mh0M7mb"></script>
 </body>
 </html>
