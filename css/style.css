@@ -186,13 +186,16 @@
     align-items: center;
 }
 
-.main__map {
+.space-section {
     margin: 50px 0;
 }
 
-.map__container {
+.center-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+}
+
+.map__container {
+    gap: 40px;
 }
