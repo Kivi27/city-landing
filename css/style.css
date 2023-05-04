@@ -179,3 +179,20 @@
     line-height: 32px;
     align-self: center;
 }
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__map {
+    margin: 50px 0;
+}
+
+.map__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
