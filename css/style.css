@@ -204,6 +204,6 @@
     align-items: center;
 }
 
-.map__container {
-    gap: 40px;
+.map__item {
+    border-radius: 20px;
 }
