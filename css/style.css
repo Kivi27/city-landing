@@ -32,6 +32,12 @@
 
 .menu__item {
     white-space: nowrap;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.menu__item:hover {
+    background-color: #BBDEFB;
 }
 
 .hero__photo {
@@ -89,6 +95,14 @@
 
 .reasons__content {
     padding: 66px 0;
+}
+
+.reasons__left {
+    transition: all 2s;
+}
+
+.reasons__left:hover {
+    transform: scale(1.1);
 }
 
 .reasons-cards {
@@ -161,6 +175,14 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 150px;
+}
+
+.follow-us-icon {
+    transition: transform 1s;
+}
+
+.follow-us-icon:hover {
+    transform: scale(1.2) rotate(360deg);
 }
 
 .follow-us__follow-us-icons {
