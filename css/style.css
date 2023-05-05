@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=K2D:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
 
 :root {
     --color-text: #37474F;
@@ -132,11 +132,12 @@
 }
 
 .reasons__title {
-    font-family: inherit;
+    font-family: K2D, sans-serif;
+    font-style: italic;
 }
 
 .reasons__describe-text {
-    font-family: inherit;
+    font-family: K2D, sans-serif;
     font-weight: 700;
 }
 
