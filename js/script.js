@@ -1,0 +1,3 @@
+$( ".accordion" ).accordion();
+
+$( ".datepicker" ).datepicker();

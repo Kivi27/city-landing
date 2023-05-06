@@ -230,3 +230,33 @@
 .map__item {
     border-radius: 20px;
 }
+
+.accordion-section {
+    background-color: var(--blue-background);
+    padding: 40px 0;
+}
+
+.accordion-container {
+    width: 50%;
+}
+
+.main__accordion-section {
+    margin: 50px 0;
+}
+
+.adventure-date {
+    padding: 50px 0;
+}
+
+.adventure-date__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datepicker {
+    padding: 20px;
+    border: none;
+    background-color: var(--blue-background);
+}
