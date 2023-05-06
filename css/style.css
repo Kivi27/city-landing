@@ -260,3 +260,7 @@
     border: none;
     background-color: var(--blue-background);
 }
+
+.fix-validation {
+    display: none;
+}
